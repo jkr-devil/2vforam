@@ -727,7 +727,7 @@ onClick={() => deleteTransaction(txn.id, txn.type)}
           <div className="bg-indigo-600 p-1.5 rounded-lg">
             <DollarSign className="text-white w-4 h-4" />
           </div>
-          <span className="text-lg font-bold text-indigo-900">FinTrack</span>
+          <span className="text-lg font-bold text-indigo-900">AM tours</span>
         </div>
         <div className="flex gap-4">
              <button onClick={() => setActiveTab('dashboard')} className={activeTab === 'dashboard' ? 'text-indigo-600' : 'text-slate-400'}><LayoutDashboard size={20}/></button>
